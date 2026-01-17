@@ -5,13 +5,10 @@ import logging
 from pathlib import Path
 from typing import Any
 
-from fastapi import APIRouter, Depends, Query
+from fastapi import APIRouter, Query
 from pydantic import BaseModel
-from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.core.database import get_session
 from app.services.ai_service import ParsedIntent, get_ai_service
-from app.services.spatial_service import SpatialService
 
 router = APIRouter(prefix="/api/search", tags=["search"])
 logger = logging.getLogger(__name__)
@@ -327,16 +324,14 @@ class SearchResponse(BaseModel):
 @router.post("", response_model=SearchResponse)
 async def search(
     request: SearchRequest,
-    session: AsyncSession = Depends(get_session),
 ) -> SearchResponse:
     """
     AI-powered search endpoint.
 
     1. Parses natural language query using OpenRouter
-    2. Queries PostGIS for matching locations
-    3. Falls back to IMDF GeoJSON search if no DB results
-    4. Also performs direct text search for comprehensive results
-    5. Returns results with FeatureIDs for map highlighting
+    2. Searches IMDF GeoJSON data for matching locations
+    3. Also performs direct text search for comprehensive results
+    4. Returns results with FeatureIDs for map highlighting
     """
     # Parse intent using AI
     ai_service = get_ai_service()
@@ -352,17 +347,6 @@ async def search(
         current_location = (request.current_x, request.current_y)
 
     results = []
-    
-    # Try database first
-    try:
-        spatial_service = SpatialService(session)
-        results = await spatial_service.find_by_intent(
-            intent=intent,
-            current_location=current_location,
-            limit=10,
-        )
-    except Exception as e:
-        logger.warning(f"Database search failed: {e}")
     
     # Search IMDF data with AI-parsed intent
     imdf_results = []
@@ -416,7 +400,6 @@ async def quick_search(
     floor: int | None = Query(None, description="Filter by floor"),
     x: float | None = Query(None, description="Current X coordinate"),
     y: float | None = Query(None, description="Current Y coordinate"),
-    session: AsyncSession = Depends(get_session),
 ) -> SearchResponse:
     """Quick GET-based search endpoint."""
     request = SearchRequest(
@@ -425,4 +408,4 @@ async def quick_search(
         current_y=y,
         floor=floor,
     )
-    return await search(request, session)
+    return await search(request)

@@ -3,19 +3,13 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-# Install system dependencies for PostGIS/GDAL
-RUN apt-get update && apt-get install -y \
-    libpq-dev \
-    libgdal-dev \
-    gcc \
-    && rm -rf /var/lib/apt/lists/*
-
 # Install Python dependencies
-COPY pyproject.toml ./
-RUN pip install --no-cache-dir .
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
 COPY app ./app
+COPY floorplan_geojson ./floorplan_geojson
 
 # Expose port
 EXPOSE 8000

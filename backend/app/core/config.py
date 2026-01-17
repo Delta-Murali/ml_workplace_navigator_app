@@ -20,16 +20,12 @@ class Settings(BaseSettings):
     app_version: str = "0.1.0"
     debug: bool = False
 
-    # Database (PostgreSQL + PostGIS)
-    database_url: str = "postgresql+asyncpg://postgres:postgres@localhost:5432/workplace_nav"
-    database_echo: bool = False
-
     # OpenRouter AI
     openrouter_api_key: str = ""
     openrouter_base_url: str = "https://openrouter.ai/api/v1"
     openrouter_model: str = "anthropic/claude-3.5-sonnet"
 
-    # Azure Maps
+    # Azure Maps (optional)
     azure_maps_client_id: str = ""
     azure_maps_subscription_key: str = ""
     azure_maps_tileset_id: str = ""
@@ -39,11 +35,6 @@ class Settings(BaseSettings):
 
     # CORS
     cors_origins: list[str] = ["http://localhost:5173", "http://localhost:3000"]
-
-    @property
-    def async_database_url(self) -> str:
-        """Return async-compatible database URL."""
-        return self.database_url
 
 
 @lru_cache

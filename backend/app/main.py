@@ -7,7 +7,6 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.core.config import get_settings
-from app.core.database import init_db
 from app.routers import map_config, search, floorplan
 
 # Configure logging
@@ -24,13 +23,7 @@ settings = get_settings()
 async def lifespan(app: FastAPI):
     """Application lifespan handler."""
     logger.info("Starting Workplace Navigator Backend...")
-
-    # Initialize database on startup
-    try:
-        await init_db()
-        logger.info("Database initialized successfully")
-    except Exception as e:
-        logger.error(f"Database initialization failed: {e}")
+    logger.info("Using GeoJSON data from floorplan_geojson/imdf_package/")
 
     yield
 

@@ -1,6 +1,5 @@
-"""Database models."""
+"""Models package - data structures for the application."""
 
-from app.models.employee import Employee
-from app.models.room import Room
+# Note: Database models removed - using GeoJSON files directly
 
-__all__ = ["Employee", "Room"]
+__all__ = []

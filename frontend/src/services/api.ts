@@ -1,7 +1,14 @@
 import axios from 'axios';
 
+// Get API configuration from environment variables
+const API_URL = import.meta.env.VITE_API_URL || '';
+const API_PREFIX = import.meta.env.VITE_API_PREFIX || '/api';
+
+// Build the base URL: if API_URL is set, use it with prefix; otherwise just use prefix for relative URLs
+const baseURL = API_URL ? `${API_URL}${API_PREFIX}` : API_PREFIX;
+
 const api = axios.create({
-  baseURL: '/api',
+  baseURL,
   timeout: 30000,
   headers: {
     'Content-Type': 'application/json',

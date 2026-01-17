@@ -9,10 +9,44 @@ from openai import AsyncOpenAI
 from pydantic import BaseModel
 
 from app.core.config import get_settings
-from app.models.room import RoomCategory
 
 logger = logging.getLogger(__name__)
 settings = get_settings()
+
+
+class RoomCategory(str, Enum):
+    """Valid room categories for AI intent matching."""
+
+    MEETING_ROOM = "Meeting Room"
+    FOCUS_ROOM = "Focus Room"
+    CONFERENCE_ROOM = "Conference Room"
+    HUDDLE_SPACE = "Huddle Space"
+    PHONE_BOOTH = "Phone Booth"
+    LIBRARY = "Library"
+    CAFETERIA = "Cafeteria"
+    CAFE = "Cafe"
+    KITCHEN = "Kitchen"
+    RESTROOM = "Restroom"
+    ELEVATOR = "Elevator"
+    STAIRS = "Stairs"
+    RECEPTION = "Reception"
+    LOBBY = "Lobby"
+    GYM = "Gym"
+    WELLNESS_ROOM = "Wellness Room"
+    PRAYER_ROOM = "Prayer Room"
+    MOTHERS_ROOM = "Mothers Room"
+    IT_HELPDESK = "IT Helpdesk"
+    HR_OFFICE = "HR Office"
+    FINANCE = "Finance"
+    TECH_HUB = "Tech Hub"
+    TRAINING_ROOM = "Training Room"
+    AUDITORIUM = "Auditorium"
+    STORAGE = "Storage"
+    MAIL_ROOM = "Mail Room"
+    PRINT_STATION = "Print Station"
+    LOCKER_ROOM = "Locker Room"
+    PARKING = "Parking"
+    OTHER = "Other"
 
 
 class IntentType(str, Enum):
