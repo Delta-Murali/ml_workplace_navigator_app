@@ -1,0 +1,616 @@
+{
+  "type": "FeatureCollection",
+  "name": "opening",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "opening-main-entrance",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7971, 32.7755], [-96.7969, 32.7755]]
+      },
+      "properties": {
+        "name": "Main Entrance Door",
+        "category": "entrance",
+        "level_id": "level-1",
+        "accessibility": ["wheelchair", "automatic"],
+        "door_type": "automatic_sliding"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-reception-to-hallway",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7971, 32.7763], [-96.7969, 32.7763]]
+      },
+      "properties": {
+        "name": "Reception to Hallway",
+        "category": "passage",
+        "level_id": "level-1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-conf-a-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7985, 32.7766], [-96.7985, 32.7766]]
+      },
+      "properties": {
+        "name": "Conference Room A Door",
+        "category": "door",
+        "level_id": "level-1",
+        "unit_ids": ["unit-f1-conf-room-a", "unit-f1-hallway-main"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-conf-b-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7979, 32.7766], [-96.7979, 32.7766]]
+      },
+      "properties": {
+        "name": "Conference Room B Door",
+        "category": "door",
+        "level_id": "level-1",
+        "unit_ids": ["unit-f1-conf-room-b", "unit-f1-hallway-main"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-huddle-1-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7974, 32.7766], [-96.7974, 32.7766]]
+      },
+      "properties": {
+        "name": "Huddle Room 1 Door",
+        "category": "door",
+        "level_id": "level-1",
+        "unit_ids": ["unit-f1-huddle-1", "unit-f1-hallway-main"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-huddle-2-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7970, 32.7766], [-96.7970, 32.7766]]
+      },
+      "properties": {
+        "name": "Huddle Room 2 Door",
+        "category": "door",
+        "level_id": "level-1",
+        "unit_ids": ["unit-f1-huddle-2", "unit-f1-hallway-main"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-workspace-a-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7963, 32.7766], [-96.7963, 32.7766]]
+      },
+      "properties": {
+        "name": "Workspace A Entrance",
+        "category": "passage",
+        "level_id": "level-1",
+        "unit_ids": ["unit-f1-open-workspace-a", "unit-f1-hallway-main"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-workspace-b-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7955, 32.7766], [-96.7955, 32.7766]]
+      },
+      "properties": {
+        "name": "Workspace B Entrance",
+        "category": "passage",
+        "level_id": "level-1",
+        "unit_ids": ["unit-f1-open-workspace-b", "unit-f1-hallway-main"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-office-101-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7986, 32.7772], [-96.7986, 32.7772]]
+      },
+      "properties": {
+        "name": "Office 101 Door",
+        "category": "door",
+        "level_id": "level-1",
+        "unit_ids": ["unit-f1-office-101", "unit-f1-hallway-main"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-office-102-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7982, 32.7772], [-96.7982, 32.7772]]
+      },
+      "properties": {
+        "name": "Office 102 Door",
+        "category": "door",
+        "level_id": "level-1",
+        "unit_ids": ["unit-f1-office-102", "unit-f1-hallway-main"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-restroom-men-f1",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7954, 32.7763], [-96.7954, 32.7763]]
+      },
+      "properties": {
+        "name": "Men's Restroom F1 Door",
+        "category": "door",
+        "level_id": "level-1",
+        "unit_ids": ["unit-f1-restroom-men", "unit-f1-hallway-main"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-restroom-women-f1",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7986, 32.7763], [-96.7986, 32.7763]]
+      },
+      "properties": {
+        "name": "Women's Restroom F1 Door",
+        "category": "door",
+        "level_id": "level-1",
+        "unit_ids": ["unit-f1-restroom-women", "unit-f1-hallway-main"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-break-room-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7955, 32.7774], [-96.7955, 32.7774]]
+      },
+      "properties": {
+        "name": "Break Room Door",
+        "category": "door",
+        "level_id": "level-1",
+        "unit_ids": ["unit-f1-break-room", "unit-f1-open-workspace-b"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-storage-f1-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7978, 32.7772], [-96.7978, 32.7772]]
+      },
+      "properties": {
+        "name": "Storage Room F1 Door",
+        "category": "door",
+        "level_id": "level-1",
+        "unit_ids": ["unit-f1-storage", "unit-f1-hallway-main"],
+        "restriction": "authorized"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-server-room-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7974, 32.7772], [-96.7974, 32.7772]]
+      },
+      "properties": {
+        "name": "Server Room Door",
+        "category": "door",
+        "level_id": "level-1",
+        "unit_ids": ["unit-f1-server-room", "unit-f1-hallway-main"],
+        "restriction": "restricted",
+        "access_control": "keycard"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-elevator-f1",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7970, 32.7772], [-96.7970, 32.7772]]
+      },
+      "properties": {
+        "name": "Elevator F1 Door",
+        "category": "elevator",
+        "level_id": "level-1",
+        "unit_ids": ["unit-f1-elevator", "unit-f1-hallway-main"],
+        "accessibility": ["wheelchair"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-stairs-f1",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7966, 32.7774], [-96.7966, 32.7774]]
+      },
+      "properties": {
+        "name": "Stairwell F1 Door",
+        "category": "emergencyexit",
+        "level_id": "level-1",
+        "unit_ids": ["unit-f1-stairs", "unit-f1-open-workspace-a"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-elevator-f1-f2",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7970, 32.7774], [-96.7970, 32.7774]]
+      },
+      "properties": {
+        "name": "Elevator Connection F1-F2",
+        "category": "elevator",
+        "level_id": "level-1",
+        "connects_levels": ["level-1", "level-2"],
+        "accessibility": ["wheelchair"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-stairs-f1-f2",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7966, 32.7776], [-96.7966, 32.7778]]
+      },
+      "properties": {
+        "name": "Stairs Connection F1-F2",
+        "category": "stairs",
+        "level_id": "level-1",
+        "connects_levels": ["level-1", "level-2"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-boardroom-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7983, 32.7766], [-96.7983, 32.7766]]
+      },
+      "properties": {
+        "name": "Executive Boardroom Door",
+        "category": "door",
+        "level_id": "level-2",
+        "unit_ids": ["unit-f2-boardroom", "unit-f2-hallway-main"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-conf-c-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7975, 32.7766], [-96.7975, 32.7766]]
+      },
+      "properties": {
+        "name": "Conference Room C Door",
+        "category": "door",
+        "level_id": "level-2",
+        "unit_ids": ["unit-f2-conf-room-c", "unit-f2-hallway-main"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-huddle-3-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7970, 32.7766], [-96.7970, 32.7766]]
+      },
+      "properties": {
+        "name": "Huddle Room 3 Door",
+        "category": "door",
+        "level_id": "level-2",
+        "unit_ids": ["unit-f2-huddle-3", "unit-f2-hallway-main"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-huddle-4-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7966, 32.7766], [-96.7966, 32.7766]]
+      },
+      "properties": {
+        "name": "Huddle Room 4 Door",
+        "category": "door",
+        "level_id": "level-2",
+        "unit_ids": ["unit-f2-huddle-4", "unit-f2-hallway-main"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-workspace-c-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7958, 32.7766], [-96.7958, 32.7766]]
+      },
+      "properties": {
+        "name": "Workspace C Entrance",
+        "category": "passage",
+        "level_id": "level-2",
+        "unit_ids": ["unit-f2-open-workspace-c", "unit-f2-hallway-main"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-exec-suite-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7984, 32.7772], [-96.7984, 32.7772]]
+      },
+      "properties": {
+        "name": "Executive Suite Door",
+        "category": "door",
+        "level_id": "level-2",
+        "unit_ids": ["unit-f2-executive-suite", "unit-f2-hallway-main"],
+        "restriction": "executive",
+        "access_control": "keycard"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-private-201-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7978, 32.7772], [-96.7978, 32.7772]]
+      },
+      "properties": {
+        "name": "Private Office 201 Door",
+        "category": "door",
+        "level_id": "level-2",
+        "unit_ids": ["unit-f2-private-office-201", "unit-f2-hallway-main"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-private-202-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7974, 32.7772], [-96.7974, 32.7772]]
+      },
+      "properties": {
+        "name": "Private Office 202 Door",
+        "category": "door",
+        "level_id": "level-2",
+        "unit_ids": ["unit-f2-private-office-202", "unit-f2-hallway-main"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-office-203-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7970, 32.7772], [-96.7970, 32.7772]]
+      },
+      "properties": {
+        "name": "Office 203 Door",
+        "category": "door",
+        "level_id": "level-2",
+        "unit_ids": ["unit-f2-office-203", "unit-f2-hallway-main"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-office-204-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7966, 32.7772], [-96.7966, 32.7772]]
+      },
+      "properties": {
+        "name": "Office 204 Door",
+        "category": "door",
+        "level_id": "level-2",
+        "unit_ids": ["unit-f2-office-204", "unit-f2-hallway-main"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-restroom-men-f2",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7954, 32.7763], [-96.7954, 32.7763]]
+      },
+      "properties": {
+        "name": "Men's Restroom F2 Door",
+        "category": "door",
+        "level_id": "level-2",
+        "unit_ids": ["unit-f2-restroom-men", "unit-f2-hallway-main"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-restroom-women-f2",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7986, 32.7763], [-96.7986, 32.7763]]
+      },
+      "properties": {
+        "name": "Women's Restroom F2 Door",
+        "category": "door",
+        "level_id": "level-2",
+        "unit_ids": ["unit-f2-restroom-women", "unit-f2-hallway-main"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-exec-lounge-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7956, 32.7774], [-96.7956, 32.7774]]
+      },
+      "properties": {
+        "name": "Executive Lounge Door",
+        "category": "door",
+        "level_id": "level-2",
+        "unit_ids": ["unit-f2-executive-lounge", "unit-f2-open-workspace-c"],
+        "restriction": "executive"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-storage-f2-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7962, 32.7774], [-96.7962, 32.7774]]
+      },
+      "properties": {
+        "name": "Storage Room F2 Door",
+        "category": "door",
+        "level_id": "level-2",
+        "unit_ids": ["unit-f2-storage", "unit-f2-open-workspace-c"],
+        "restriction": "authorized"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-elevator-f2",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7970, 32.7763], [-96.7970, 32.7763]]
+      },
+      "properties": {
+        "name": "Elevator F2 Door",
+        "category": "elevator",
+        "level_id": "level-2",
+        "unit_ids": ["unit-f2-elevator", "unit-f2-hallway-main"],
+        "accessibility": ["wheelchair"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-stairs-f2",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7976, 32.7763], [-96.7976, 32.7763]]
+      },
+      "properties": {
+        "name": "Stairwell F2 Door",
+        "category": "emergencyexit",
+        "level_id": "level-2",
+        "unit_ids": ["unit-f2-stairs", "unit-f2-hallway-main"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-wellness-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7962, 32.7763], [-96.7962, 32.7763]]
+      },
+      "properties": {
+        "name": "Wellness Room Door",
+        "category": "door",
+        "level_id": "level-2",
+        "unit_ids": ["unit-f2-wellness-room", "unit-f2-hallway-main"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-phone-booth-1",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7961, 32.7761], [-96.7961, 32.7761]]
+      },
+      "properties": {
+        "name": "Phone Booth 1 Door",
+        "category": "door",
+        "level_id": "level-1",
+        "unit_ids": ["unit-f1-phone-booth-1", "unit-f1-reception"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-phone-booth-2",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7959, 32.7761], [-96.7959, 32.7761]]
+      },
+      "properties": {
+        "name": "Phone Booth 2 Door",
+        "category": "door",
+        "level_id": "level-1",
+        "unit_ids": ["unit-f1-phone-booth-2", "unit-f1-reception"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-mailroom-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7982, 32.7761], [-96.7982, 32.7761]]
+      },
+      "properties": {
+        "name": "Mail Room Door",
+        "category": "door",
+        "level_id": "level-1",
+        "unit_ids": ["unit-f1-mailroom", "unit-f1-reception"]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "opening-copyroom-door",
+      "feature_type": "opening",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-96.7979, 32.7761], [-96.7979, 32.7761]]
+      },
+      "properties": {
+        "name": "Copy Room Door",
+        "category": "door",
+        "level_id": "level-1",
+        "unit_ids": ["unit-f1-copy-room", "unit-f1-reception"]
+      }
+    }
+  ]
+}

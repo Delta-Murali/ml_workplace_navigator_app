@@ -1,0 +1,21 @@
+room_id,name,display_name,category,floor,building,capacity,amenities,is_bookable,is_accessible,centroid_x,centroid_y,feature_id
+R001,cafe-1,Main Cafe,Cafeteria,1,HQ,100,"coffee,snacks,seating",false,true,-122.3320,47.6060,FEAT_CAFE1
+R002,focus-201,Focus Room A,Focus Room,2,HQ,1,"whiteboard,power",true,true,-122.3321,47.6061,FEAT_FOCUS201
+R003,focus-202,Focus Room B,Focus Room,2,HQ,1,"whiteboard,power",true,true,-122.3322,47.6062,FEAT_FOCUS202
+R004,conf-301,Cascade,Conference Room,3,HQ,12,"tv,whiteboard,video",true,true,-122.3323,47.6063,FEAT_CONF301
+R005,conf-302,Rainier,Conference Room,3,HQ,8,"tv,whiteboard,video",true,true,-122.3324,47.6064,FEAT_CONF302
+R006,hr-601,HR Office,HR Office,6,HQ,4,"desks,privacy",false,true,-122.3325,47.6065,FEAT_HR601
+R007,it-101,IT Helpdesk,IT Helpdesk,1,HQ,3,"equipment,repair",false,true,-122.3326,47.6066,FEAT_IT101
+R008,gym-b1,Fitness Center,Gym,-1,HQ,30,"equipment,showers",false,true,-122.3327,47.6067,FEAT_GYM
+R009,library-401,Library,Library,4,HQ,20,"books,quiet",false,true,-122.3328,47.6068,FEAT_LIB401
+R010,huddle-205,Huddle Space 1,Huddle Space,2,HQ,4,"tv,whiteboard",true,true,-122.3329,47.6069,FEAT_HUD205
+R011,phone-206,Phone Booth 1,Phone Booth,2,HQ,1,"soundproof",true,true,-122.3330,47.6070,FEAT_PHONE206
+R012,wellness-402,Wellness Room,Wellness Room,4,HQ,1,"quiet,rest",true,true,-122.3331,47.6071,FEAT_WELL402
+R013,mothers-403,Mothers Room,Mothers Room,4,HQ,1,"private,refrigerator",true,true,-122.3332,47.6072,FEAT_MOM403
+R014,prayer-404,Prayer Room,Prayer Room,4,HQ,5,"quiet,mats",false,true,-122.3333,47.6073,FEAT_PRAY404
+R015,print-102,Print Station,Print Station,1,HQ,2,"printer,scanner",false,true,-122.3334,47.6074,FEAT_PRINT102
+R016,training-501,Training Room,Training Room,5,HQ,30,"projector,desks",true,true,-122.3335,47.6075,FEAT_TRAIN501
+R017,tech-hub-201,Tech Hub,Tech Hub,2,HQ,15,"workstations,monitors",false,true,-122.3336,47.6076,FEAT_TECH201
+R018,reception-100,Main Reception,Reception,1,HQ,5,"desk,seating",false,true,-122.3337,47.6077,FEAT_REC100
+R019,lobby-100,Main Lobby,Lobby,1,HQ,50,"seating,information",false,true,-122.3338,47.6078,FEAT_LOBBY100
+R020,meeting-303,Meeting Room C,Meeting Room,3,HQ,6,"tv,whiteboard",true,true,-122.3339,47.6079,FEAT_MEET303

@@ -1,0 +1,36 @@
+employee_id,name,email,department,title,desk_id,floor,building,desk_x,desk_y,feature_id
+EMP001,John Smith,john.smith@company.com,Engineering,Senior Software Engineer,A-01,1,HQ,-96.7966,32.7772,desk-f1-ws-a-01
+EMP002,Sarah Johnson,sarah.johnson@company.com,Engineering,Software Engineer,A-02,1,HQ,-96.7964,32.7772,desk-f1-ws-a-02
+EMP003,Michael Chen,michael.chen@company.com,Engineering,Full Stack Developer,A-03,1,HQ,-96.7962,32.7772,desk-f1-ws-a-03
+EMP004,Emily Davis,emily.davis@company.com,Engineering,Backend Developer,A-04,1,HQ,-96.7960,32.7772,desk-f1-ws-a-04
+EMP005,David Wilson,david.wilson@company.com,Engineering,Frontend Developer,A-05,1,HQ,-96.7966,32.7770,desk-f1-ws-a-05
+EMP006,Lisa Brown,lisa.brown@company.com,Engineering,DevOps Engineer,A-06,1,HQ,-96.7964,32.7770,desk-f1-ws-a-06
+EMP007,James Taylor,james.taylor@company.com,Engineering,QA Engineer,A-07,1,HQ,-96.7962,32.7770,desk-f1-ws-a-07
+EMP008,Jennifer Martinez,jennifer.martinez@company.com,Engineering,Data Engineer,A-08,1,HQ,-96.7960,32.7770,desk-f1-ws-a-08
+EMP009,Robert Anderson,robert.anderson@company.com,Engineering,Mobile Developer,A-09,1,HQ,-96.7966,32.7768,desk-f1-ws-a-09
+EMP010,Maria Garcia,maria.garcia@company.com,Engineering,Cloud Architect,A-10,1,HQ,-96.7964,32.7768,desk-f1-ws-a-10
+EMP011,William Thomas,william.thomas@company.com,Engineering,Security Engineer,A-11,1,HQ,-96.7962,32.7768,desk-f1-ws-a-11
+EMP012,Jessica Lee,jessica.lee@company.com,Engineering,ML Engineer,A-12,1,HQ,-96.7960,32.7768,desk-f1-ws-a-12
+EMP013,Alex Turner,alex.turner@company.com,Design,Senior UX Designer,B-01,1,HQ,-96.7957,32.7772,desk-f1-ws-b-01
+EMP014,Sophia White,sophia.white@company.com,Design,UI Designer,B-02,1,HQ,-96.7955,32.7772,desk-f1-ws-b-02
+EMP015,Daniel Harris,daniel.harris@company.com,Design,Visual Designer,B-03,1,HQ,-96.7953,32.7772,desk-f1-ws-b-03
+EMP016,Olivia Clark,olivia.clark@company.com,Design,Product Designer,B-04,1,HQ,-96.7957,32.7770,desk-f1-ws-b-04
+EMP017,Ethan Lewis,ethan.lewis@company.com,Design,UX Researcher,B-05,1,HQ,-96.7955,32.7770,desk-f1-ws-b-05
+EMP018,Isabella Walker,isabella.walker@company.com,Design,Motion Designer,B-06,1,HQ,-96.7953,32.7770,desk-f1-ws-b-06
+EMP019,Mason Hall,mason.hall@company.com,Design,Design Lead,B-07,1,HQ,-96.7957,32.7768,desk-f1-ws-b-07
+EMP020,Ava Young,ava.young@company.com,Design,Graphic Designer,B-08,1,HQ,-96.7955,32.7768,desk-f1-ws-b-08
+EMP021,Amanda Foster,amanda.foster@company.com,Sales,Sales Manager,C-01,2,HQ,-96.7962,32.7772,desk-f2-ws-c-01
+EMP022,Brian Scott,brian.scott@company.com,Sales,Account Executive,C-02,2,HQ,-96.7960,32.7772,desk-f2-ws-c-02
+EMP023,Christina Adams,christina.adams@company.com,Sales,Sales Representative,C-03,2,HQ,-96.7958,32.7772,desk-f2-ws-c-03
+EMP024,Derek Miller,derek.miller@company.com,Sales,Business Development,C-04,2,HQ,-96.7956,32.7772,desk-f2-ws-c-04
+EMP025,Emma Rodriguez,emma.rodriguez@company.com,Marketing,Marketing Manager,C-05,2,HQ,-96.7954,32.7772,desk-f2-ws-c-05
+EMP026,Frank Thompson,frank.thompson@company.com,Marketing,Content Strategist,C-06,2,HQ,-96.7962,32.7770,desk-f2-ws-c-06
+EMP027,Grace Lee,grace.lee@company.com,Marketing,Social Media Manager,C-07,2,HQ,-96.7960,32.7770,desk-f2-ws-c-07
+EMP028,Henry Wilson,henry.wilson@company.com,Marketing,Brand Manager,C-08,2,HQ,-96.7958,32.7770,desk-f2-ws-c-08
+EMP029,Irene Baker,irene.baker@company.com,Sales,Customer Success,C-09,2,HQ,-96.7956,32.7770,desk-f2-ws-c-09
+EMP030,Jack Morrison,jack.morrison@company.com,Sales,Sales Engineer,C-10,2,HQ,-96.7954,32.7770,desk-f2-ws-c-10
+EMP031,Karen Phillips,karen.phillips@company.com,Marketing,Digital Marketing,C-11,2,HQ,-96.7962,32.7768,desk-f2-ws-c-11
+EMP032,Larry Evans,larry.evans@company.com,Sales,Regional Sales Manager,C-12,2,HQ,-96.7960,32.7768,desk-f2-ws-c-12
+EMP033,Monica Turner,monica.turner@company.com,Marketing,Events Coordinator,C-13,2,HQ,-96.7958,32.7768,desk-f2-ws-c-13
+EMP034,Nathan Cooper,nathan.cooper@company.com,Sales,Inside Sales,C-14,2,HQ,-96.7956,32.7768,desk-f2-ws-c-14
+EMP035,Olivia Reed,olivia.reed@company.com,Marketing,PR Specialist,C-15,2,HQ,-96.7954,32.7768,desk-f2-ws-c-15

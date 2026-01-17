@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "name": "venue",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "venue-001",
+      "feature_type": "venue",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7992, 32.7753],
+          [-96.7948, 32.7753],
+          [-96.7948, 32.7782],
+          [-96.7992, 32.7782],
+          [-96.7992, 32.7753]
+        ]]
+      },
+      "properties": {
+        "name": "TechCorp Innovation Campus",
+        "category": "businesscampus",
+        "restriction": "employeesOnly",
+        "address_id": "addr-001",
+        "hours": "Mon-Fri 07:00-22:00, Sat-Sun 09:00-18:00"
+      }
+    }
+  ]
+}

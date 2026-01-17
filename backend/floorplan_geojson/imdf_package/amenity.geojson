@@ -1,0 +1,741 @@
+{
+  "type": "FeatureCollection",
+  "name": "amenity",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "desk-f1-ws-a-01",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7966, 32.7772]
+      },
+      "properties": {
+        "name": "Desk A-01",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-1",
+        "unit_id": "unit-f1-open-workspace-a",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "John Smith",
+        "employee_id": "EMP001",
+        "department": "Engineering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f1-ws-a-02",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7964, 32.7772]
+      },
+      "properties": {
+        "name": "Desk A-02",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-1",
+        "unit_id": "unit-f1-open-workspace-a",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "Sarah Johnson",
+        "employee_id": "EMP002",
+        "department": "Engineering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f1-ws-a-03",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7962, 32.7772]
+      },
+      "properties": {
+        "name": "Desk A-03",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-1",
+        "unit_id": "unit-f1-open-workspace-a",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "Michael Chen",
+        "employee_id": "EMP003",
+        "department": "Engineering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f1-ws-a-04",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7960, 32.7772]
+      },
+      "properties": {
+        "name": "Desk A-04",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-1",
+        "unit_id": "unit-f1-open-workspace-a",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "Emily Davis",
+        "employee_id": "EMP004",
+        "department": "Engineering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f1-ws-a-05",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7966, 32.7770]
+      },
+      "properties": {
+        "name": "Desk A-05",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-1",
+        "unit_id": "unit-f1-open-workspace-a",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "David Wilson",
+        "employee_id": "EMP005",
+        "department": "Engineering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f1-ws-a-06",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7964, 32.7770]
+      },
+      "properties": {
+        "name": "Desk A-06",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-1",
+        "unit_id": "unit-f1-open-workspace-a",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "Lisa Brown",
+        "employee_id": "EMP006",
+        "department": "Engineering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f1-ws-a-07",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7962, 32.7770]
+      },
+      "properties": {
+        "name": "Desk A-07",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-1",
+        "unit_id": "unit-f1-open-workspace-a",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "James Taylor",
+        "employee_id": "EMP007",
+        "department": "Engineering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f1-ws-a-08",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7960, 32.7770]
+      },
+      "properties": {
+        "name": "Desk A-08",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-1",
+        "unit_id": "unit-f1-open-workspace-a",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "Jennifer Martinez",
+        "employee_id": "EMP008",
+        "department": "Engineering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f1-ws-a-09",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7966, 32.7768]
+      },
+      "properties": {
+        "name": "Desk A-09",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-1",
+        "unit_id": "unit-f1-open-workspace-a",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "Robert Anderson",
+        "employee_id": "EMP009",
+        "department": "Engineering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f1-ws-a-10",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7964, 32.7768]
+      },
+      "properties": {
+        "name": "Desk A-10",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-1",
+        "unit_id": "unit-f1-open-workspace-a",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "Maria Garcia",
+        "employee_id": "EMP010",
+        "department": "Engineering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f1-ws-a-11",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7962, 32.7768]
+      },
+      "properties": {
+        "name": "Desk A-11",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-1",
+        "unit_id": "unit-f1-open-workspace-a",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "William Thomas",
+        "employee_id": "EMP011",
+        "department": "Engineering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f1-ws-a-12",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7960, 32.7768]
+      },
+      "properties": {
+        "name": "Desk A-12",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-1",
+        "unit_id": "unit-f1-open-workspace-a",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "Jessica Lee",
+        "employee_id": "EMP012",
+        "department": "Engineering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f1-ws-b-01",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7957, 32.7772]
+      },
+      "properties": {
+        "name": "Desk B-01",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-1",
+        "unit_id": "unit-f1-open-workspace-b",
+        "capacity": 1,
+        "equipment": ["dual_monitor", "drawing_tablet", "ergonomic_chair"],
+        "employee_name": "Alex Turner",
+        "employee_id": "EMP013",
+        "department": "Design"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f1-ws-b-02",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7955, 32.7772]
+      },
+      "properties": {
+        "name": "Desk B-02",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-1",
+        "unit_id": "unit-f1-open-workspace-b",
+        "capacity": 1,
+        "equipment": ["dual_monitor", "drawing_tablet", "ergonomic_chair"],
+        "employee_name": "Sophia White",
+        "employee_id": "EMP014",
+        "department": "Design"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f1-ws-b-03",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7953, 32.7772]
+      },
+      "properties": {
+        "name": "Desk B-03",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-1",
+        "unit_id": "unit-f1-open-workspace-b",
+        "capacity": 1,
+        "equipment": ["dual_monitor", "drawing_tablet", "ergonomic_chair"],
+        "employee_name": "Daniel Harris",
+        "employee_id": "EMP015",
+        "department": "Design"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f1-ws-b-04",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7957, 32.7770]
+      },
+      "properties": {
+        "name": "Desk B-04",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-1",
+        "unit_id": "unit-f1-open-workspace-b",
+        "capacity": 1,
+        "equipment": ["dual_monitor", "drawing_tablet", "ergonomic_chair"],
+        "employee_name": "Olivia Clark",
+        "employee_id": "EMP016",
+        "department": "Design"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f1-ws-b-05",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7955, 32.7770]
+      },
+      "properties": {
+        "name": "Desk B-05",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-1",
+        "unit_id": "unit-f1-open-workspace-b",
+        "capacity": 1,
+        "equipment": ["dual_monitor", "drawing_tablet", "ergonomic_chair"],
+        "employee_name": "Ethan Lewis",
+        "employee_id": "EMP017",
+        "department": "Design"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f1-ws-b-06",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7953, 32.7770]
+      },
+      "properties": {
+        "name": "Desk B-06",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-1",
+        "unit_id": "unit-f1-open-workspace-b",
+        "capacity": 1,
+        "equipment": ["dual_monitor", "drawing_tablet", "ergonomic_chair"],
+        "employee_name": "Isabella Walker",
+        "employee_id": "EMP018",
+        "department": "Design"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f1-ws-b-07",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7957, 32.7768]
+      },
+      "properties": {
+        "name": "Desk B-07",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-1",
+        "unit_id": "unit-f1-open-workspace-b",
+        "capacity": 1,
+        "equipment": ["dual_monitor", "drawing_tablet", "ergonomic_chair"],
+        "employee_name": "Mason Hall",
+        "employee_id": "EMP019",
+        "department": "Design"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f1-ws-b-08",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7955, 32.7768]
+      },
+      "properties": {
+        "name": "Desk B-08",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-1",
+        "unit_id": "unit-f1-open-workspace-b",
+        "capacity": 1,
+        "equipment": ["dual_monitor", "drawing_tablet", "ergonomic_chair"],
+        "employee_name": "Ava Young",
+        "employee_id": "EMP020",
+        "department": "Design"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f2-ws-c-01",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7962, 32.7772]
+      },
+      "properties": {
+        "name": "Desk C-01",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-2",
+        "unit_id": "unit-f2-open-workspace-c",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "Amanda Foster",
+        "employee_id": "EMP021",
+        "department": "Sales"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f2-ws-c-02",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7960, 32.7772]
+      },
+      "properties": {
+        "name": "Desk C-02",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-2",
+        "unit_id": "unit-f2-open-workspace-c",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "Brian Scott",
+        "employee_id": "EMP022",
+        "department": "Sales"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f2-ws-c-03",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7958, 32.7772]
+      },
+      "properties": {
+        "name": "Desk C-03",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-2",
+        "unit_id": "unit-f2-open-workspace-c",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "Christina Adams",
+        "employee_id": "EMP023",
+        "department": "Sales"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f2-ws-c-04",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7956, 32.7772]
+      },
+      "properties": {
+        "name": "Desk C-04",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-2",
+        "unit_id": "unit-f2-open-workspace-c",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "Derek Miller",
+        "employee_id": "EMP024",
+        "department": "Sales"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f2-ws-c-05",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7954, 32.7772]
+      },
+      "properties": {
+        "name": "Desk C-05",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-2",
+        "unit_id": "unit-f2-open-workspace-c",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "Emma Rodriguez",
+        "employee_id": "EMP025",
+        "department": "Marketing"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f2-ws-c-06",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7962, 32.7770]
+      },
+      "properties": {
+        "name": "Desk C-06",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-2",
+        "unit_id": "unit-f2-open-workspace-c",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "Frank Thompson",
+        "employee_id": "EMP026",
+        "department": "Marketing"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f2-ws-c-07",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7960, 32.7770]
+      },
+      "properties": {
+        "name": "Desk C-07",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-2",
+        "unit_id": "unit-f2-open-workspace-c",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "Grace Lee",
+        "employee_id": "EMP027",
+        "department": "Marketing"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f2-ws-c-08",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7958, 32.7770]
+      },
+      "properties": {
+        "name": "Desk C-08",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-2",
+        "unit_id": "unit-f2-open-workspace-c",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "Henry Wilson",
+        "employee_id": "EMP028",
+        "department": "Marketing"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f2-ws-c-09",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7956, 32.7770]
+      },
+      "properties": {
+        "name": "Desk C-09",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-2",
+        "unit_id": "unit-f2-open-workspace-c",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "Irene Baker",
+        "employee_id": "EMP029",
+        "department": "Sales"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f2-ws-c-10",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7954, 32.7770]
+      },
+      "properties": {
+        "name": "Desk C-10",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-2",
+        "unit_id": "unit-f2-open-workspace-c",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "Jack Morrison",
+        "employee_id": "EMP030",
+        "department": "Sales"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f2-ws-c-11",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7962, 32.7768]
+      },
+      "properties": {
+        "name": "Desk C-11",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-2",
+        "unit_id": "unit-f2-open-workspace-c",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "Karen Phillips",
+        "employee_id": "EMP031",
+        "department": "Marketing"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f2-ws-c-12",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7960, 32.7768]
+      },
+      "properties": {
+        "name": "Desk C-12",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-2",
+        "unit_id": "unit-f2-open-workspace-c",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "Larry Evans",
+        "employee_id": "EMP032",
+        "department": "Sales"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f2-ws-c-13",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7958, 32.7768]
+      },
+      "properties": {
+        "name": "Desk C-13",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-2",
+        "unit_id": "unit-f2-open-workspace-c",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "Monica Turner",
+        "employee_id": "EMP033",
+        "department": "Marketing"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f2-ws-c-14",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7956, 32.7768]
+      },
+      "properties": {
+        "name": "Desk C-14",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-2",
+        "unit_id": "unit-f2-open-workspace-c",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "Nathan Cooper",
+        "employee_id": "EMP034",
+        "department": "Sales"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "desk-f2-ws-c-15",
+      "feature_type": "amenity",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7954, 32.7768]
+      },
+      "properties": {
+        "name": "Desk C-15",
+        "category": "desk",
+        "amenity_type": "workstation",
+        "level_id": "level-2",
+        "unit_id": "unit-f2-open-workspace-c",
+        "capacity": 1,
+        "equipment": ["monitor", "desk_phone", "ergonomic_chair"],
+        "employee_name": "Olivia Reed",
+        "employee_id": "EMP035",
+        "department": "Marketing"
+      }
+    }
+  ]
+}

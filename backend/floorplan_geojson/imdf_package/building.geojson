@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "name": "building",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "building-001",
+      "feature_type": "building",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7990, 32.7755],
+          [-96.7950, 32.7755],
+          [-96.7950, 32.7780],
+          [-96.7990, 32.7780],
+          [-96.7990, 32.7755]
+        ]]
+      },
+      "properties": {
+        "name": "Innovation Hub",
+        "alt_name": "Building A",
+        "category": "office",
+        "address_id": "addr-001",
+        "restriction": "employeesOnly"
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "name": "level",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "level-1",
+      "feature_type": "level",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7990, 32.7755],
+          [-96.7950, 32.7755],
+          [-96.7950, 32.7780],
+          [-96.7990, 32.7780],
+          [-96.7990, 32.7755]
+        ]]
+      },
+      "properties": {
+        "name": "Floor 1 - Ground Level",
+        "short_name": "F1",
+        "ordinal": 1,
+        "outdoor": false,
+        "building_ids": ["building-001"],
+        "category": "arrivals"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "level-2",
+      "feature_type": "level",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7990, 32.7755],
+          [-96.7950, 32.7755],
+          [-96.7950, 32.7780],
+          [-96.7990, 32.7780],
+          [-96.7990, 32.7755]
+        ]]
+      },
+      "properties": {
+        "name": "Floor 2 - Executive Level",
+        "short_name": "F2",
+        "ordinal": 2,
+        "outdoor": false,
+        "building_ids": ["building-001"],
+        "category": "unspecified"
+      }
+    }
+  ]
+}

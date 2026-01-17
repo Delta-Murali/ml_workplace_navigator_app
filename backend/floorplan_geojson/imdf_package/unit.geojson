@@ -1,0 +1,1062 @@
+{
+  "type": "FeatureCollection",
+  "name": "unit",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "unit-f1-main-entrance",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7972, 32.7755],
+          [-96.7968, 32.7755],
+          [-96.7968, 32.7758],
+          [-96.7972, 32.7758],
+          [-96.7972, 32.7755]
+        ]]
+      },
+      "properties": {
+        "name": "Main Entrance",
+        "category": "entrance",
+        "level_id": "level-1",
+        "building_id": "building-001",
+        "accessibility": ["wheelchair", "braille"],
+        "display_point": { "type": "Point", "coordinates": [-96.7970, 32.7756] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f1-reception",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7978, 32.7758],
+          [-96.7962, 32.7758],
+          [-96.7962, 32.7763],
+          [-96.7978, 32.7763],
+          [-96.7978, 32.7758]
+        ]]
+      },
+      "properties": {
+        "name": "Reception & Lobby",
+        "category": "reception",
+        "level_id": "level-1",
+        "building_id": "building-001",
+        "accessibility": ["wheelchair"],
+        "amenities": ["visitor_wifi", "seating", "water_fountain"],
+        "display_point": { "type": "Point", "coordinates": [-96.7970, 32.7760] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f1-hallway-main",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7988, 32.7763],
+          [-96.7952, 32.7763],
+          [-96.7952, 32.7766],
+          [-96.7988, 32.7766],
+          [-96.7988, 32.7763]
+        ]]
+      },
+      "properties": {
+        "name": "Main Hallway - F1",
+        "category": "walkway",
+        "level_id": "level-1",
+        "building_id": "building-001",
+        "accessibility": ["wheelchair"],
+        "display_point": { "type": "Point", "coordinates": [-96.7970, 32.7764] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f1-conf-room-a",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7988, 32.7766],
+          [-96.7982, 32.7766],
+          [-96.7982, 32.7772],
+          [-96.7988, 32.7772],
+          [-96.7988, 32.7766]
+        ]]
+      },
+      "properties": {
+        "name": "Conference Room A - Innovate",
+        "alt_name": "Innovate",
+        "category": "conferenceroom",
+        "level_id": "level-1",
+        "building_id": "building-001",
+        "capacity": 16,
+        "amenities": ["projector", "whiteboard", "video_conference", "phone"],
+        "is_bookable": true,
+        "accessibility": ["wheelchair"],
+        "display_point": { "type": "Point", "coordinates": [-96.7985, 32.7769] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f1-conf-room-b",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7982, 32.7766],
+          [-96.7976, 32.7766],
+          [-96.7976, 32.7772],
+          [-96.7982, 32.7772],
+          [-96.7982, 32.7766]
+        ]]
+      },
+      "properties": {
+        "name": "Conference Room B - Collaborate",
+        "alt_name": "Collaborate",
+        "category": "conferenceroom",
+        "level_id": "level-1",
+        "building_id": "building-001",
+        "capacity": 12,
+        "amenities": ["tv_display", "whiteboard", "video_conference", "phone"],
+        "is_bookable": true,
+        "accessibility": ["wheelchair"],
+        "display_point": { "type": "Point", "coordinates": [-96.7979, 32.7769] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f1-huddle-1",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7976, 32.7766],
+          [-96.7972, 32.7766],
+          [-96.7972, 32.7770],
+          [-96.7976, 32.7770],
+          [-96.7976, 32.7766]
+        ]]
+      },
+      "properties": {
+        "name": "Huddle Room 1 - Quick Sync",
+        "alt_name": "Quick Sync",
+        "category": "huddleroom",
+        "level_id": "level-1",
+        "building_id": "building-001",
+        "capacity": 4,
+        "amenities": ["tv_display", "whiteboard"],
+        "is_bookable": true,
+        "display_point": { "type": "Point", "coordinates": [-96.7974, 32.7768] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f1-huddle-2",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7972, 32.7766],
+          [-96.7968, 32.7766],
+          [-96.7968, 32.7770],
+          [-96.7972, 32.7770],
+          [-96.7972, 32.7766]
+        ]]
+      },
+      "properties": {
+        "name": "Huddle Room 2 - Brainstorm",
+        "alt_name": "Brainstorm",
+        "category": "huddleroom",
+        "level_id": "level-1",
+        "building_id": "building-001",
+        "capacity": 4,
+        "amenities": ["tv_display", "whiteboard"],
+        "is_bookable": true,
+        "display_point": { "type": "Point", "coordinates": [-96.7970, 32.7768] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f1-open-workspace-a",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7968, 32.7766],
+          [-96.7958, 32.7766],
+          [-96.7958, 32.7774],
+          [-96.7968, 32.7774],
+          [-96.7968, 32.7766]
+        ]]
+      },
+      "properties": {
+        "name": "Open Workspace A - Engineering",
+        "alt_name": "Engineering Zone",
+        "category": "workspace",
+        "level_id": "level-1",
+        "building_id": "building-001",
+        "capacity": 24,
+        "seats": [
+          {"id": "A1-01", "employee": "John Smith", "department": "Engineering"},
+          {"id": "A1-02", "employee": "Sarah Johnson", "department": "Engineering"},
+          {"id": "A1-03", "employee": "Mike Chen", "department": "Engineering"},
+          {"id": "A1-04", "employee": "Emily Davis", "department": "Engineering"},
+          {"id": "A1-05", "employee": "David Wilson", "department": "Engineering"},
+          {"id": "A1-06", "employee": "Lisa Brown", "department": "Engineering"},
+          {"id": "A1-07", "employee": "James Taylor", "department": "Engineering"},
+          {"id": "A1-08", "employee": "Jennifer Martinez", "department": "Engineering"},
+          {"id": "A1-09", "employee": "Robert Anderson", "department": "Engineering"},
+          {"id": "A1-10", "employee": "Maria Garcia", "department": "Engineering"},
+          {"id": "A1-11", "employee": "William Thomas", "department": "Engineering"},
+          {"id": "A1-12", "employee": "Jessica Lee", "department": "Engineering"}
+        ],
+        "amenities": ["standing_desk", "monitor", "power_outlets"],
+        "display_point": { "type": "Point", "coordinates": [-96.7963, 32.7770] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f1-open-workspace-b",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7958, 32.7766],
+          [-96.7952, 32.7766],
+          [-96.7952, 32.7774],
+          [-96.7958, 32.7774],
+          [-96.7958, 32.7766]
+        ]]
+      },
+      "properties": {
+        "name": "Open Workspace B - Design",
+        "alt_name": "Design Zone",
+        "category": "workspace",
+        "level_id": "level-1",
+        "building_id": "building-001",
+        "capacity": 16,
+        "seats": [
+          {"id": "B1-01", "employee": "Alex Turner", "department": "Design"},
+          {"id": "B1-02", "employee": "Sophia White", "department": "Design"},
+          {"id": "B1-03", "employee": "Daniel Harris", "department": "Design"},
+          {"id": "B1-04", "employee": "Olivia Clark", "department": "Design"},
+          {"id": "B1-05", "employee": "Ethan Lewis", "department": "Design"},
+          {"id": "B1-06", "employee": "Isabella Walker", "department": "Design"},
+          {"id": "B1-07", "employee": "Mason Hall", "department": "Design"},
+          {"id": "B1-08", "employee": "Ava Young", "department": "Design"}
+        ],
+        "amenities": ["standing_desk", "dual_monitor", "power_outlets", "drawing_tablet"],
+        "display_point": { "type": "Point", "coordinates": [-96.7955, 32.7770] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f1-office-101",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7988, 32.7772],
+          [-96.7984, 32.7772],
+          [-96.7984, 32.7778],
+          [-96.7988, 32.7778],
+          [-96.7988, 32.7772]
+        ]]
+      },
+      "properties": {
+        "name": "Office 101",
+        "category": "office",
+        "level_id": "level-1",
+        "building_id": "building-001",
+        "capacity": 2,
+        "occupant": "Tom Richards - Engineering Manager",
+        "amenities": ["phone", "whiteboard"],
+        "display_point": { "type": "Point", "coordinates": [-96.7986, 32.7775] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f1-office-102",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7984, 32.7772],
+          [-96.7980, 32.7772],
+          [-96.7980, 32.7778],
+          [-96.7984, 32.7778],
+          [-96.7984, 32.7772]
+        ]]
+      },
+      "properties": {
+        "name": "Office 102",
+        "category": "office",
+        "level_id": "level-1",
+        "building_id": "building-001",
+        "capacity": 2,
+        "occupant": "Rachel Kim - Design Lead",
+        "amenities": ["phone", "whiteboard"],
+        "display_point": { "type": "Point", "coordinates": [-96.7982, 32.7775] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f1-restroom-men",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7952, 32.7758],
+          [-96.7956, 32.7758],
+          [-96.7956, 32.7763],
+          [-96.7952, 32.7763],
+          [-96.7952, 32.7758]
+        ]]
+      },
+      "properties": {
+        "name": "Men's Restroom - F1",
+        "category": "restroom",
+        "level_id": "level-1",
+        "building_id": "building-001",
+        "restroom_type": "male",
+        "accessibility": ["wheelchair", "handrails"],
+        "display_point": { "type": "Point", "coordinates": [-96.7954, 32.7760] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f1-restroom-women",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7988, 32.7758],
+          [-96.7984, 32.7758],
+          [-96.7984, 32.7763],
+          [-96.7988, 32.7763],
+          [-96.7988, 32.7758]
+        ]]
+      },
+      "properties": {
+        "name": "Women's Restroom - F1",
+        "category": "restroom",
+        "level_id": "level-1",
+        "building_id": "building-001",
+        "restroom_type": "female",
+        "accessibility": ["wheelchair", "handrails"],
+        "display_point": { "type": "Point", "coordinates": [-96.7986, 32.7760] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f1-break-room",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7952, 32.7774],
+          [-96.7958, 32.7774],
+          [-96.7958, 32.7778],
+          [-96.7952, 32.7778],
+          [-96.7952, 32.7774]
+        ]]
+      },
+      "properties": {
+        "name": "Break Room & Kitchen - F1",
+        "alt_name": "The Cafe",
+        "category": "breakroom",
+        "level_id": "level-1",
+        "building_id": "building-001",
+        "capacity": 20,
+        "amenities": ["microwave", "refrigerator", "coffee_machine", "vending_machine", "seating"],
+        "display_point": { "type": "Point", "coordinates": [-96.7955, 32.7776] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f1-storage",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7980, 32.7772],
+          [-96.7976, 32.7772],
+          [-96.7976, 32.7776],
+          [-96.7980, 32.7776],
+          [-96.7980, 32.7772]
+        ]]
+      },
+      "properties": {
+        "name": "Storage Room - F1",
+        "category": "storage",
+        "level_id": "level-1",
+        "building_id": "building-001",
+        "restriction": "authorized",
+        "display_point": { "type": "Point", "coordinates": [-96.7978, 32.7774] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f1-server-room",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7976, 32.7772],
+          [-96.7972, 32.7772],
+          [-96.7972, 32.7776],
+          [-96.7976, 32.7776],
+          [-96.7976, 32.7772]
+        ]]
+      },
+      "properties": {
+        "name": "Server Room",
+        "category": "serverroom",
+        "level_id": "level-1",
+        "building_id": "building-001",
+        "restriction": "restricted",
+        "amenities": ["climate_control"],
+        "display_point": { "type": "Point", "coordinates": [-96.7974, 32.7774] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f1-elevator",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7972, 32.7772],
+          [-96.7968, 32.7772],
+          [-96.7968, 32.7776],
+          [-96.7972, 32.7776],
+          [-96.7972, 32.7772]
+        ]]
+      },
+      "properties": {
+        "name": "Elevator",
+        "category": "elevator",
+        "level_id": "level-1",
+        "building_id": "building-001",
+        "accessibility": ["wheelchair"],
+        "connects_to": ["level-1", "level-2"],
+        "display_point": { "type": "Point", "coordinates": [-96.7970, 32.7774] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f1-stairs",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7968, 32.7774],
+          [-96.7964, 32.7774],
+          [-96.7964, 32.7778],
+          [-96.7968, 32.7778],
+          [-96.7968, 32.7774]
+        ]]
+      },
+      "properties": {
+        "name": "Stairwell",
+        "category": "stairs",
+        "level_id": "level-1",
+        "building_id": "building-001",
+        "connects_to": ["level-1", "level-2"],
+        "display_point": { "type": "Point", "coordinates": [-96.7966, 32.7776] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f2-hallway-main",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7988, 32.7763],
+          [-96.7952, 32.7763],
+          [-96.7952, 32.7766],
+          [-96.7988, 32.7766],
+          [-96.7988, 32.7763]
+        ]]
+      },
+      "properties": {
+        "name": "Main Hallway - F2",
+        "category": "walkway",
+        "level_id": "level-2",
+        "building_id": "building-001",
+        "accessibility": ["wheelchair"],
+        "display_point": { "type": "Point", "coordinates": [-96.7970, 32.7764] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f2-executive-suite",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7988, 32.7772],
+          [-96.7980, 32.7772],
+          [-96.7980, 32.7778],
+          [-96.7988, 32.7778],
+          [-96.7988, 32.7772]
+        ]]
+      },
+      "properties": {
+        "name": "Executive Suite - CEO Office",
+        "alt_name": "CEO Office",
+        "category": "privateoffice",
+        "level_id": "level-2",
+        "building_id": "building-001",
+        "capacity": 6,
+        "occupant": "Michael Reynolds - CEO",
+        "amenities": ["phone", "video_conference", "private_restroom", "lounge_area"],
+        "restriction": "executive",
+        "display_point": { "type": "Point", "coordinates": [-96.7984, 32.7775] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f2-private-office-201",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7980, 32.7772],
+          [-96.7976, 32.7772],
+          [-96.7976, 32.7778],
+          [-96.7980, 32.7778],
+          [-96.7980, 32.7772]
+        ]]
+      },
+      "properties": {
+        "name": "Private Office 201 - CFO",
+        "alt_name": "CFO Office",
+        "category": "privateoffice",
+        "level_id": "level-2",
+        "building_id": "building-001",
+        "capacity": 4,
+        "occupant": "Sarah Mitchell - CFO",
+        "amenities": ["phone", "video_conference"],
+        "restriction": "executive",
+        "display_point": { "type": "Point", "coordinates": [-96.7978, 32.7775] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f2-private-office-202",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7976, 32.7772],
+          [-96.7972, 32.7772],
+          [-96.7972, 32.7778],
+          [-96.7976, 32.7778],
+          [-96.7976, 32.7772]
+        ]]
+      },
+      "properties": {
+        "name": "Private Office 202 - CTO",
+        "alt_name": "CTO Office",
+        "category": "privateoffice",
+        "level_id": "level-2",
+        "building_id": "building-001",
+        "capacity": 4,
+        "occupant": "David Park - CTO",
+        "amenities": ["phone", "video_conference", "whiteboard"],
+        "restriction": "executive",
+        "display_point": { "type": "Point", "coordinates": [-96.7974, 32.7775] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f2-boardroom",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7988, 32.7766],
+          [-96.7978, 32.7766],
+          [-96.7978, 32.7772],
+          [-96.7988, 32.7772],
+          [-96.7988, 32.7766]
+        ]]
+      },
+      "properties": {
+        "name": "Executive Boardroom",
+        "alt_name": "The Summit",
+        "category": "conferenceroom",
+        "level_id": "level-2",
+        "building_id": "building-001",
+        "capacity": 20,
+        "amenities": ["projector", "video_conference", "phone", "catering_service", "sound_system"],
+        "is_bookable": true,
+        "restriction": "executive",
+        "accessibility": ["wheelchair"],
+        "display_point": { "type": "Point", "coordinates": [-96.7983, 32.7769] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f2-conf-room-c",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7978, 32.7766],
+          [-96.7972, 32.7766],
+          [-96.7972, 32.7772],
+          [-96.7978, 32.7772],
+          [-96.7978, 32.7766]
+        ]]
+      },
+      "properties": {
+        "name": "Conference Room C - Strategy",
+        "alt_name": "Strategy",
+        "category": "conferenceroom",
+        "level_id": "level-2",
+        "building_id": "building-001",
+        "capacity": 10,
+        "amenities": ["tv_display", "whiteboard", "video_conference", "phone"],
+        "is_bookable": true,
+        "accessibility": ["wheelchair"],
+        "display_point": { "type": "Point", "coordinates": [-96.7975, 32.7769] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f2-huddle-3",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7972, 32.7766],
+          [-96.7968, 32.7766],
+          [-96.7968, 32.7770],
+          [-96.7972, 32.7770],
+          [-96.7972, 32.7766]
+        ]]
+      },
+      "properties": {
+        "name": "Huddle Room 3 - Focus",
+        "alt_name": "Focus",
+        "category": "huddleroom",
+        "level_id": "level-2",
+        "building_id": "building-001",
+        "capacity": 4,
+        "amenities": ["tv_display", "whiteboard"],
+        "is_bookable": true,
+        "display_point": { "type": "Point", "coordinates": [-96.7970, 32.7768] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f2-huddle-4",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7968, 32.7766],
+          [-96.7964, 32.7766],
+          [-96.7964, 32.7770],
+          [-96.7968, 32.7770],
+          [-96.7968, 32.7766]
+        ]]
+      },
+      "properties": {
+        "name": "Huddle Room 4 - Sprint",
+        "alt_name": "Sprint",
+        "category": "huddleroom",
+        "level_id": "level-2",
+        "building_id": "building-001",
+        "capacity": 4,
+        "amenities": ["tv_display", "whiteboard"],
+        "is_bookable": true,
+        "display_point": { "type": "Point", "coordinates": [-96.7966, 32.7768] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f2-open-workspace-c",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7964, 32.7766],
+          [-96.7952, 32.7766],
+          [-96.7952, 32.7774],
+          [-96.7964, 32.7774],
+          [-96.7964, 32.7766]
+        ]]
+      },
+      "properties": {
+        "name": "Open Workspace C - Sales & Marketing",
+        "alt_name": "Sales Zone",
+        "category": "workspace",
+        "level_id": "level-2",
+        "building_id": "building-001",
+        "capacity": 20,
+        "seats": [
+          {"id": "C2-01", "employee": "Amanda Foster", "department": "Sales"},
+          {"id": "C2-02", "employee": "Brian Scott", "department": "Sales"},
+          {"id": "C2-03", "employee": "Christina Adams", "department": "Sales"},
+          {"id": "C2-04", "employee": "Derek Miller", "department": "Sales"},
+          {"id": "C2-05", "employee": "Emma Rodriguez", "department": "Marketing"},
+          {"id": "C2-06", "employee": "Frank Thompson", "department": "Marketing"},
+          {"id": "C2-07", "employee": "Grace Lee", "department": "Marketing"},
+          {"id": "C2-08", "employee": "Henry Wilson", "department": "Marketing"},
+          {"id": "C2-09", "employee": "Irene Baker", "department": "Sales"},
+          {"id": "C2-10", "employee": "Jack Morrison", "department": "Sales"}
+        ],
+        "amenities": ["standing_desk", "monitor", "power_outlets", "phone"],
+        "display_point": { "type": "Point", "coordinates": [-96.7958, 32.7770] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f2-cafeteria",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7984, 32.7758],
+          [-96.7974, 32.7758],
+          [-96.7974, 32.7763],
+          [-96.7984, 32.7763],
+          [-96.7984, 32.7758]
+        ]]
+      },
+      "properties": {
+        "name": "Cafeteria & Dining",
+        "alt_name": "Lunch Room",
+        "category": "cafeteria",
+        "level_id": "level-2",
+        "building_id": "building-001",
+        "capacity": 30,
+        "amenities": ["microwave", "refrigerator", "coffee_machine", "vending", "seating"],
+        "display_point": { "type": "Point", "coordinates": [-96.7979, 32.7760] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f2-office-203",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7968, 32.7758],
+          [-96.7964, 32.7758],
+          [-96.7964, 32.7763],
+          [-96.7968, 32.7763],
+          [-96.7968, 32.7758]
+        ]]
+      },
+      "properties": {
+        "name": "Office 203",
+        "category": "office",
+        "level_id": "level-2",
+        "building_id": "building-001",
+        "capacity": 2,
+        "occupant": "Nancy Drew - HR Director",
+        "amenities": ["phone"],
+        "display_point": { "type": "Point", "coordinates": [-96.7966, 32.7760] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f2-office-204",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7964, 32.7758],
+          [-96.7960, 32.7758],
+          [-96.7960, 32.7763],
+          [-96.7964, 32.7763],
+          [-96.7964, 32.7758]
+        ]]
+      },
+      "properties": {
+        "name": "Office 204",
+        "category": "office",
+        "level_id": "level-2",
+        "building_id": "building-001",
+        "capacity": 2,
+        "occupant": "Peter Johnson - Legal Counsel",
+        "amenities": ["phone"],
+        "display_point": { "type": "Point", "coordinates": [-96.7962, 32.7760] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f2-restroom-men",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7952, 32.7758],
+          [-96.7956, 32.7758],
+          [-96.7956, 32.7763],
+          [-96.7952, 32.7763],
+          [-96.7952, 32.7758]
+        ]]
+      },
+      "properties": {
+        "name": "Men's Restroom - F2",
+        "category": "restroom",
+        "level_id": "level-2",
+        "building_id": "building-001",
+        "restroom_type": "male",
+        "accessibility": ["wheelchair", "handrails"],
+        "display_point": { "type": "Point", "coordinates": [-96.7954, 32.7760] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f2-restroom-women",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7988, 32.7758],
+          [-96.7984, 32.7758],
+          [-96.7984, 32.7763],
+          [-96.7988, 32.7763],
+          [-96.7988, 32.7758]
+        ]]
+      },
+      "properties": {
+        "name": "Women's Restroom - F2",
+        "category": "restroom",
+        "level_id": "level-2",
+        "building_id": "building-001",
+        "restroom_type": "female",
+        "accessibility": ["wheelchair", "handrails"],
+        "display_point": { "type": "Point", "coordinates": [-96.7986, 32.7760] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f2-executive-lounge",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7952, 32.7774],
+          [-96.7960, 32.7774],
+          [-96.7960, 32.7778],
+          [-96.7952, 32.7778],
+          [-96.7952, 32.7774]
+        ]]
+      },
+      "properties": {
+        "name": "Executive Lounge",
+        "alt_name": "The Club",
+        "category": "lounge",
+        "level_id": "level-2",
+        "building_id": "building-001",
+        "capacity": 12,
+        "amenities": ["coffee_machine", "refrigerator", "seating", "tv"],
+        "restriction": "executive",
+        "display_point": { "type": "Point", "coordinates": [-96.7956, 32.7776] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f2-storage",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7964, 32.7774],
+          [-96.7960, 32.7774],
+          [-96.7960, 32.7778],
+          [-96.7964, 32.7778],
+          [-96.7964, 32.7774]
+        ]]
+      },
+      "properties": {
+        "name": "Storage Room - F2",
+        "category": "storage",
+        "level_id": "level-2",
+        "building_id": "building-001",
+        "restriction": "authorized",
+        "display_point": { "type": "Point", "coordinates": [-96.7962, 32.7776] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f2-elevator",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7972, 32.7772],
+          [-96.7968, 32.7772],
+          [-96.7968, 32.7776],
+          [-96.7972, 32.7776],
+          [-96.7972, 32.7772]
+        ]]
+      },
+      "properties": {
+        "name": "Elevator",
+        "category": "elevator",
+        "level_id": "level-2",
+        "building_id": "building-001",
+        "accessibility": ["wheelchair"],
+        "connects_to": ["level-1", "level-2"],
+        "display_point": { "type": "Point", "coordinates": [-96.7970, 32.7774] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f2-stairs",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7968, 32.7774],
+          [-96.7964, 32.7774],
+          [-96.7964, 32.7778],
+          [-96.7968, 32.7778],
+          [-96.7968, 32.7774]
+        ]]
+      },
+      "properties": {
+        "name": "Stairwell",
+        "category": "stairs",
+        "level_id": "level-2",
+        "building_id": "building-001",
+        "connects_to": ["level-1", "level-2"],
+        "display_point": { "type": "Point", "coordinates": [-96.7966, 32.7776] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f2-wellness-room",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7960, 32.7758],
+          [-96.7956, 32.7758],
+          [-96.7956, 32.7763],
+          [-96.7960, 32.7763],
+          [-96.7960, 32.7758]
+        ]]
+      },
+      "properties": {
+        "name": "Wellness Room",
+        "alt_name": "Quiet Room",
+        "category": "wellness",
+        "level_id": "level-2",
+        "building_id": "building-001",
+        "capacity": 1,
+        "amenities": ["recliner", "dim_lighting"],
+        "is_bookable": true,
+        "display_point": { "type": "Point", "coordinates": [-96.7958, 32.7760] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f1-phone-booth-1",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7962, 32.7758],
+          [-96.7960, 32.7758],
+          [-96.7960, 32.7761],
+          [-96.7962, 32.7761],
+          [-96.7962, 32.7758]
+        ]]
+      },
+      "properties": {
+        "name": "Phone Booth 1",
+        "category": "phonebooth",
+        "level_id": "level-1",
+        "building_id": "building-001",
+        "capacity": 1,
+        "amenities": ["soundproofing", "power_outlet"],
+        "is_bookable": false,
+        "display_point": { "type": "Point", "coordinates": [-96.7961, 32.7759] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f1-phone-booth-2",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7960, 32.7758],
+          [-96.7958, 32.7758],
+          [-96.7958, 32.7761],
+          [-96.7960, 32.7761],
+          [-96.7960, 32.7758]
+        ]]
+      },
+      "properties": {
+        "name": "Phone Booth 2",
+        "category": "phonebooth",
+        "level_id": "level-1",
+        "building_id": "building-001",
+        "capacity": 1,
+        "amenities": ["soundproofing", "power_outlet"],
+        "is_bookable": false,
+        "display_point": { "type": "Point", "coordinates": [-96.7959, 32.7759] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f1-mailroom",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7984, 32.7758],
+          [-96.7980, 32.7758],
+          [-96.7980, 32.7761],
+          [-96.7984, 32.7761],
+          [-96.7984, 32.7758]
+        ]]
+      },
+      "properties": {
+        "name": "Mail Room",
+        "category": "mailroom",
+        "level_id": "level-1",
+        "building_id": "building-001",
+        "amenities": ["mailboxes", "package_storage"],
+        "display_point": { "type": "Point", "coordinates": [-96.7982, 32.7759] }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "unit-f1-copy-room",
+      "feature_type": "unit",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7980, 32.7758],
+          [-96.7978, 32.7758],
+          [-96.7978, 32.7761],
+          [-96.7980, 32.7761],
+          [-96.7980, 32.7758]
+        ]]
+      },
+      "properties": {
+        "name": "Copy & Print Room",
+        "category": "copyroom",
+        "level_id": "level-1",
+        "building_id": "building-001",
+        "amenities": ["printer", "copier", "scanner", "supplies"],
+        "display_point": { "type": "Point", "coordinates": [-96.7979, 32.7759] }
+      }
+    }
+  ]
+}

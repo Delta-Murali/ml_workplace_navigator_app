@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "name": "footprint",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "footprint-001",
+      "feature_type": "footprint",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.7990, 32.7755],
+          [-96.7950, 32.7755],
+          [-96.7950, 32.7780],
+          [-96.7990, 32.7780],
+          [-96.7990, 32.7755]
+        ]]
+      },
+      "properties": {
+        "building_ids": ["building-001"],
+        "category": "ground"
+      }
+    }
+  ]
+}
